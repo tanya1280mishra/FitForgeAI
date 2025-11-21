@@ -1,32 +1,75 @@
-<h1 align="center">💪 AI Fitness Assistant 🤖</h1>
+# 💪 FitForge – AI-Powered Fitness Coach
 
-![Demo App](/public/screenshot-for-readme.png)
+Your personal **AI fitness assistant** built with **Next.js, Tailwind, Shadcn UI, Vapi Voice AI, Convex DB, Clerk Auth, and Gemini LLM**.
+Create fully personalized **workout** and **diet** plans through natural conversation.
 
-## Highlights:
+---
 
-- 🚀 Tech stack: Next.js, React, Tailwind & Shadcn UI
-- 🎙️ Voice AI Assistant (Vapi)
-- 🧠 LLM Integration (Gemini AI)
-- 🏋️ Personalized Workout Plans
-- 🥗 Custom Diet Programs
-- 🔒 Authentication & Authorization (Clerk)
-- 💾 Database (Convex)
-- 🎬 Real-time Program Generation
-- 💻 Layouts
-- 🎭 Client & Server Components
+## ✨ Highlights
 
-## Features
+* 🚀 **Tech Stack:** Next.js, React, Tailwind CSS, Shadcn UI
+* 🎙️ **Voice AI Assistant:** Powered by Vapi
+* 🧠 **LLM Integration:** Gemini AI for personalized program generation
+* 🏋️ **Custom Workout Plans:** Tailored by fitness level & goals
+* 🥗 **Diet Recommendations:** Personalized meal plans with allergy filtering
+* 🔒 **Authentication:** Secure auth via Clerk (Google, GitHub, Email/Password)
+* 💾 **Database:** Convex for real-time storage
+* 🎬 **Live Program Generation:** Real-time UX with server & client components
+* 💻 **Modern Layouts:** Clean UI with reusable components
 
-- **Smart AI Assistant**: Engage in conversation with an AI that asks about your fitness goals, physical condition, and preferences
-- **Personalized Workout Plans**: Get custom exercise routines based on your fitness level, injuries, and goals
-- **Diet Recommendations**: Receive personalized meal plans accounting for your allergies and dietary preferences
-- **User Authentication**: Sign in with GitHub, Google, or email/password
-- **Program Management**: Create and view multiple fitness programs with only the latest one active
-- **Responsive Design**: Beautiful UI that works across all devices
+---
 
-## Setup .env file
+## 🌟 Features
 
-```js
+### 🤖 Smart AI Fitness Assistant
+
+Talk to an intelligent voice assistant that understands your:
+
+* Fitness goals
+* Body condition & injuries
+* Food preferences & allergies
+
+### 🏋️ Personalized Workout Plans
+
+Automatically generated routines based on your:
+
+* Body type
+* Fitness level
+* Training goals (fat loss, muscle gain, mobility, etc.)
+
+### 🥗 Custom Diet Programs
+
+Receive AI-curated meal plans tailored to:
+
+* Dietary preferences
+* Allergies
+* Lifestyle & goals
+
+### 🔑 Authentication & Authorization
+
+Login using:
+
+* Google
+* GitHub
+* Email/Password
+
+### 📚 Program Management
+
+* Save multiple fitness programs
+* Only the latest one remains active
+* Beautiful dashboard to view your plans
+
+### 📱 Fully Responsive
+
+Optimized for mobile, tablet, and desktop.
+
+---
+
+## 🔧 Environment Variables
+
+Create a `.env` file and add:
+
+```env
 # Clerk Authentication
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
@@ -44,50 +87,70 @@ CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
 ```
 
-## Getting Started
+---
 
-1. Clone the repository
-2. Install dependencies:
+## 🚀 Getting Started
 
-```shell
+### 1️⃣ Clone the repository
+
+```sh
+git clone <repo-url>
+cd <project-folder>
+```
+
+### 2️⃣ Install dependencies
+
+```sh
 npm install
 ```
 
-3. Set up your environment variables as shown above
-4. Run the development server:
+### 3️⃣ Set up environment variables
 
-```shell
+Add values to your `.env` file as shown above.
+
+### 4️⃣ Run the development server
+
+```sh
 npm run dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
+Open 👉 [http://localhost:3000](http://localhost:3000)
 
-## Deployment
+---
 
-This application can be easily deployed to Vercel:
+## 📦 Deployment (Vercel Recommended)
 
-```shell
+Build the production version:
+
+```sh
 npm run build
 npm run start
 ```
 
-Or connect your GitHub repository to Vercel for automatic deployments.
+Or simply connect your GitHub repo to **Vercel** for instant deployments.
 
-## Technologies Used
+---
 
-- **Next.js**: React framework for building the frontend and API routes
-- **Tailwind CSS & Shadcn UI**: For styling and UI components
-- **Clerk**: Authentication and user management
-- **Vapi**: Voice agent platform for conversational AI
-- **Convex**: Real-time database
-- **Gemini AI**: Large Language Model for generating personalized fitness programs
+## 🛠️ Tech Stack
 
-## Learn More
+| Technology       | Purpose                                 |
+| ---------------- | --------------------------------------- |
+| **Next.js**      | Frontend framework + API routes         |
+| **React**        | UI components                           |
+| **Tailwind CSS** | Fast styling                            |
+| **Shadcn UI**    | Modern prebuilt UI components           |
+| **Clerk**        | Authentication & user management        |
+| **Vapi**         | Voice AI agent                          |
+| **Convex**       | Real-time database                      |
+| **Gemini AI**    | LLM for personalized program generation |
 
-To learn more about the technologies used in this project:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Clerk Documentation](https://clerk.com/docs)
-- [Vapi Documentation](https://docs.vapi.ai)
-- [Convex Documentation](https://docs.convex.dev)
-- [Gemini AI Documentation](https://ai.google.dev/gemini-api)
+## 📚 Learn More
+
+* Next.js Docs
+* Clerk Docs
+* Vapi Docs
+* Convex Docs
+* Gemini AI Docs
+
